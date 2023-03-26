@@ -1,7 +1,7 @@
 const myArray = ["Cokelat", 42.5, 22, true, "Programming"];
 
 myArray.push("JavaScript");
-console.log(myArray);
+console.log(myArray[2]);
 myArray.pop();
 console.log("\nsetelah pop diesekusi\n" + myArray);
 myArray.unshift("Apple");

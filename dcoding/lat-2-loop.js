@@ -13,7 +13,7 @@ for (const nama of listNama) {
 }
 
 // While
-// while lebih cocok digunakan pada kasus di mana kita tidak tahu pasti berapa banyak
+// while lebih cocok digunakan pada kasus di mana kita tidak tahu pasti berapa banyak looping
 
 let i = 1;
 
