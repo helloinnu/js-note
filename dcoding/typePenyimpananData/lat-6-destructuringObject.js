@@ -14,11 +14,12 @@ let firstName = "Dimas";
 let age = 20;
 
 // menginisialisasi nilai baru melalui destructuring object
-({ firstName, age } = profile);
+({ firstName } = profile);
 
 console.log(firstName);
 console.log(age);
 
+// Assigning to Different Local Variable Names
 console.log("============================");
 const { firstName: localFirstName, lastName: localLastName, age: localAge } = profile;
 

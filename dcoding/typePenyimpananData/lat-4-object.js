@@ -13,6 +13,7 @@ const user = {
 user.age = 20;
 user.firstName = "Ifanu";
 //akan ditambahkan
+
 delete user.sex;
 // user = {
 //   firstName: "new Luke",

@@ -13,3 +13,5 @@ capital.set("New Delhi", "India");
 console.log(capital.size);
 console.log(capital.get("New Delhi"));
 console.log(capital);
+
+// Jadi, pastikan untuk menggunakan metode .set() dan .get() untuk Map.
