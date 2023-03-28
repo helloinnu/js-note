@@ -33,11 +33,11 @@ function minimal(a, b) {
 
 console.log(minimal(0, 2));
 
-function findIndex(arr, num) {
+function findIndex(arry, num) {
   let indexNumber = -1;
-  for (let i = 0; i <= arr.length; i++) {
+  for (let i = 0; i <= arry.length; i++) {
     // console.log("ini iterasi ke " + i);
-    if (arr[i] == num) {
+    if (arry[i] == num) {
       indexNumber = i;
       break;
     }
