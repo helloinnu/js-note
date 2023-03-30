@@ -39,5 +39,5 @@ class Car {
 const car = new Car("BMW", "red", 200);
 
 console.log(car.chassisNumber);
-// car.#generateChassisNumber();
+car.#generateChassisNumber();
 console.log(car.#generateChassisNumber());
