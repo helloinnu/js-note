@@ -1,21 +1,21 @@
 class Car {
   constructor(brand, color, maxSpeed, chassisNumber) {
-    this.brand = brand;
+    this.brand2 = brand;
     this.color = color;
     this.maxSpeed = maxSpeed;
     this.chassisNumber = chassisNumber;
   }
 
   drive() {
-    console.log(`${this.brand} ${this.color} is driving`);
+    console.log(`${this.brand2} ${this.color} is driving`);
   }
 
   reverse() {
-    console.log(`${this.brand} ${this.color} is reversing`);
+    console.log(`${this.brand2} ${this.color} is reversing`);
   }
 
   turn() {
-    console.log(`${this.brand} ${this.color} is turning`);
+    console.log(`${this.brand2} ${this.color} is turning`);
   }
 }
 
