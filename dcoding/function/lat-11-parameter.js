@@ -12,7 +12,7 @@ introduce(user);
 
 // Rest Parameter
 function sum(...numbers) {
-  let result = 0;
+  let result = null;
   for (let number of numbers) {
     result += number;
   }

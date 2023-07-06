@@ -15,6 +15,7 @@ function multiply(a, b) {
 }
 
 let result = multiply(10, 2);
+console.log("\n");
 console.log(result);
 console.log("===========================");
 

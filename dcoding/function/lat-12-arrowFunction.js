@@ -5,7 +5,7 @@ const sayName = (name) => {
 sayName("Leia");
 
 const sayNama = (nama) => console.log(`Nama saya ${nama}`);
-sayName("Innu");
+sayNama("Innu");
 
 const sayHello = () => console.log("Selamat pagi semuanya!");
 sayHello();

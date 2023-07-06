@@ -5,8 +5,9 @@ function init() {
     // Inner function, merupakan contoh closure
     console.log(`Halo, ${name}`); // Memanggil variabel yang dideklarasikan di parent function
   }
-
-  greet();
+  console.log(`my name is ${name} \n`);
+  // greet();
 }
+// greet(); //tidak bisa diakses karena diluar
 
 init();
